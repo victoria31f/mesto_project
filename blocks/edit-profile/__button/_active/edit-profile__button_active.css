@@ -1,0 +1,7 @@
+.edit-profile__button_active.edit-profile__button {
+    background-color: #000;
+    color: white;
+    display: block;
+    cursor: pointer;
+
+}
