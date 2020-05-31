@@ -1,4 +1,4 @@
-class FormValidator {
+export default class FormValidator {
     //конструктор должен принимать один из двух аргументов: элемент формы или элемент попапа, внутри которого находится эта форма.
     constructor (form) {
       this.form = form;

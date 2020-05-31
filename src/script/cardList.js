@@ -1,11 +1,5 @@
-//хранение и отрисовка карточек
-/*Метод constructor этого класса должен принимать два аргумента:
-DOM-элемент — контейнер, куда нужно складывать карточки;
-массив карточек, которые будут на странице при загрузке.
-Ещё у класса CardList должно быть два метода:
-addCard для добавления карточки в список, принимает на вход экземпляр карточки;
-render для отрисовки карточек при загрузке страницы.*/
-class CardList {
+
+export default class CardList {
   constructor(cardsContainer, newCardFunction, getUserInfo) {
     this.container = cardsContainer;
     this.createCard = newCardFunction;

@@ -1,5 +1,5 @@
 //Экземпляр этого класса должен хранить в себе данные пользователя: имя и информацию о себе, а также отображать эту информацию на странице.
-class UserInfo {
+export default class UserInfo {
   constructor(userEditForm, closeFormFunc, uploadUserInfoFunc, usernameElem, aboutElem) {
     this.form = userEditForm;
     this.nameElem = usernameElem;
