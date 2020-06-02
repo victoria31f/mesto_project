@@ -2,8 +2,8 @@
   "name": "mesto_project",
   "homepage": "https://github.com/victoria31f/mesto_project#readme",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "study project",
+  "main": "src/index.js",
   "scripts": {
     "build": "cross-env NODE_ENV=production rimraf dist && webpack --mode production",
     "dev": "cross-env NODE_ENV=development webpack-dev-server --mode development --open --watch",
@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/victoria31f/mesto_project.git"
   },
-  "author": "",
+  "author": "Victoria Fedotkina",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/victoria31f/mesto_project/issues"

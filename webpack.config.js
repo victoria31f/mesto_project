@@ -5,6 +5,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const WebpackMd5Hash = require('webpack-md5-hash');
 const webpack = require('webpack');
 const OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin'); // подключаем плагин
+
 const isDev = process.env.NODE_ENV === 'development'; // создаем переменную для development-сборки
 
 module.exports = {
@@ -27,14 +28,6 @@ module.exports = {
                         'css-loader',
                         'postcss-loader'
                     ]
-            },
-            {
-                test: /\.(png|jpe?g|gif)$/i,
-                use: [
-                    {
-                        loader: 'file-loader',
-                    },
-                ],
             },
             {
                 test: /\.(png|jpg|gif|ico|svg)$/,
