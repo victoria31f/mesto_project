@@ -1,5 +1,5 @@
 /*Это класс, создающий карточку. Добавьте ему методы constructor, like и remove. И ещё один — create. Он будет создавать DOM-элемент карточки.*/
-class Card {
+export  default class Card {
   constructor(name, link, likes, zoomPopup, deleteCardFunc) {
     this.name = name;
     this.link = link;
